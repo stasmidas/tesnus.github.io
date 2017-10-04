@@ -1,0 +1,366 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Russo+One&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+.main_page{
+
+
+}
+.head_main_page img{
+	margin-top: -100px;
+	position:	absolute;
+	z-index:0;
+	top:0;
+	left:0;
+    width:100%;
+    height:auto;
+	
+}
+
+.head_main_page ul li a{
+	color: #0072fe;
+	text-decoration: none;
+}
+.head_main_page ul li a:hover{
+text-shadow: 5px -1px 2px rgba(154, 150, 150, 1);
+transition: 0.5s;
+}
+.head_main_page ul{
+	position: absolute;
+		width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(322,322,322,0.5);
+}
+.img{
+	position: relative;
+	margin-top: 770px;
+	width: 100%;
+}
+.photo{
+		position: relative;
+	
+	width: 100%;
+	height: 100%;
+}
+.head_main_page ul li{
+	position: relative;
+	display: inline-block;
+	list-style: none;
+	margin-right: 44px;
+	margin-left: 44px; 
+	color: #0072fe;
+font-family: 'Ruslan Display', cursive;
+font-size: 38px;
+font-weight: 400;
+
+}
+.gallery{
+	margin-top: 850px;
+	width: 100%;
+
+}
+.gallery ul li{
+	
+	position:relative;
+	display: inline-block;
+}
+
+
+}
+.gallery ul li img{
+	position: absolute;
+	width: 533px;
+	height: 445px;
+	margin: -5px;
+	
+}
+
+.papka{
+	margin-top: 500px;
+}
+	.over1{
+		background-color: #2D9CEC;
+	}
+	.over2{
+		background-color: #47FE36;
+	}
+	.over3{
+		background-color: #E63733;
+	}
+	.over4{
+		background-color: #D20868;
+	}
+	.over5{
+		background-color: #F49434;
+	}
+	.over6{
+		background-color: #7F1BDE;
+	}
+	.over{
+	position: absolute;
+	margin-right: 25px; 
+	opacity: 0.8;
+	margin-left: -5px;
+	top: 1px;
+	margin-top:-6px;
+ 
+}
+.over h2{
+	font-family: 'Russo One';
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	vertical-align: center;
+}
+
+.over p{
+	font-family: 'Russo One';
+	text-align: center;
+	color: white;
+	font-size: 20px;
+
+	vertical-align: center;
+}
+
+@media screen and (device-width: 1920px) {
+	.gallery ul li img{
+	margin: -5px;
+	width: 640px;
+	height: 533px;
+	
+}
+	.gallery{
+	margin-top: 950px;
+	width: 100%;
+}
+		.over{
+	position: absolute;
+	width: 640px;
+	height: 533px;
+	opacity: 0.8;
+	margin-left: -5px;
+	top: 1px;
+	margin-top:-6px;
+ 
+}
+
+}
+@media screen and (device-width: 1600px) {
+	.gallery ul li img{
+	width: 533px;
+	height: 445px;
+	margin: -4px;
+}
+	.gallery{
+	margin-top: 780px;
+	width: 100%;
+
+}
+			.over{
+	position: absolute;
+	width: 533px;
+	height: 445px;
+	opacity: 0.8;
+	margin-left: -5px;
+	top: 1px;
+	margin-top:-6px;
+ 
+}
+
+}
+@media screen and (device-width: 1280px){
+	.gallery ul li img{
+	width: 427px;
+	height: 355px;
+	margin: -5px;
+}
+	.gallery{
+	margin-top: 570px;
+	width: 100%;
+
+}
+			.over{
+	position: absolute;
+		width: 427px;
+	height: 355px;
+	opacity: 0.8;
+	margin-left: -5px;
+	top: 1px;
+	margin-top:-6px;
+ 
+}
+
+}
+@media screen and (device-width: 1024px){
+	.gallery ul li img{
+	width: 347px;
+	height: 285px;
+	margin: -5px;
+}
+	.gallery{
+	margin-top: 400px;
+	width: 100%;
+
+}
+				.over{
+	position: absolute;
+	width: 347px;
+	height: 285px;
+	margin-left: -5px;
+	opacity: 0.8;
+	top: 1px;
+	margin-top:-6px;
+ 
+}
+
+}
+.about p{
+	
+color: #ffffff;
+font-family: "Russo One";
+font-size: 48px;
+}
+.about b{
+	
+color: #ffffff;
+font-family: "Russo One";
+font-size: 48px;
+}
+.about{
+    background-size: 100%;
+	background: url(img/fon2.png) no-repeat;
+
+}
+.left{
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+}
+
+.right{
+
+	margin-top: 50px;
+	margin-right: 50px;
+	float: right;
+}
+.right a{
+	color: #ffffff;
+font-family: "Russo One";
+font-size: 48px;
+text-decoration: none;
+      padding: 0 75px; 
+}
+.otziv{
+	margin-top: 50px;
+	width: 100%;
+}
+iframe{
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+h1{	
+	text-align: center;
+	position: relative;
+	width: 100%;
+	background-color:#2D9CEC;
+	padding:20px 0;
+	font-size: 48px;
+	color: white;
+	font-family: 'Russo One'; 
+}
+.papki{
+	margin-top: -400px;
+	width: 100%;
+	height: 1080px;
+	
+	background: url(img/fon3.png) no-repeat; 
+}
+.papki ul li img{
+	width: 300px;
+	height: 171px;
+
+}
+.papki ul li{
+	display: inline-block;
+	margin: 50px;
+}
+.papki ul{
+	width: 820px;
+	height: 450px;
+	margin-top: 400px;
+}
+.papki ul li a{
+	font-family: 'Poiret One', cursive;
+	font-size: 36px;
+	color: white;
+	padding-top: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+.modal {
+    background: #fff;
+    left: 50%;
+    margin: -250px 250px 0 -15%;
+    position: absolute;
+    top: -100%;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 3px 7px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+/* Активация модального окна в состоянии :target */
+.modal:target {
+    top: 50%;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.modal header, .modal footer {
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+.modal footer {
+    border:none;
+    border-top: 1px solid #e7e7e7;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+}
+.modal section, .modal header, .modal footer {
+    padding: 15px;
+    z-index: 200;
+    font-family: 'Comfortaa', cursive;
+}
+.modal h2 {
+    margin: 0;
+}
+.modal .btn {
+    float: right;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.first{
+
+}
+
+
+
+
+
+   
